@@ -3,6 +3,10 @@ class Ted < ApplicationRecord
     [nil, 'contacted', 'corresponding', 'applied', 'rejected', 'accepted', 'try again next year']
   end
 
+  def type_enum
+    [nil, 'Standard', 'University', 'Youth', 'Salon', 'TedXLive', 'Internal', 'TedX in a Box', 'Library', 'ED', 'Level 2']
+  end
+
   class DateConverter
     def self.convert(value)
       Date.strptime( value, '%m/%d/%Y')

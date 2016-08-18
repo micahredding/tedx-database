@@ -38,4 +38,24 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model 'Ted' do
+    list do
+      field :status
+      field :name
+      field :event_date do
+        label 'Date'
+      end
+      field :submission_deadline do
+        label 'Deadline'
+      end
+      field :place
+      field :theme
+      field :type
+      field :organizers
+      field :contact
+      field :submission
+      field :notes
+    end
+  end
 end
