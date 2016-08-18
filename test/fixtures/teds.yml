@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  place: MyString
+  type: 
+  theme: MyString
+  event_date: 2016-08-18 13:16:25
+  submission_deadline: 2016-08-18 13:16:25
+  organizers: MyString
+  contact: MyString
+  submission: MyString
+  notes: MyText
+  status: MyString
+
+two:
+  name: MyString
+  place: MyString
+  type: 
+  theme: MyString
+  event_date: 2016-08-18 13:16:25
+  submission_deadline: 2016-08-18 13:16:25
+  organizers: MyString
+  contact: MyString
+  submission: MyString
+  notes: MyText
+  status: MyString
