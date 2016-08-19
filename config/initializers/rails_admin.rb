@@ -41,6 +41,7 @@ RailsAdmin.config do |config|
 
   config.model 'Ted' do
     list do
+      field :priority
       field :status
       field :name
       field :event_date do

@@ -7,6 +7,10 @@ class Ted < ApplicationRecord
     [nil, 'Standard', 'University', 'Youth', 'Salon', 'TedXLive', 'Internal', 'TedX in a Box', 'Library', 'ED', 'Level 2']
   end
 
+  def priority_enum
+    [nil, 'low', 'medium', 'high']
+  end
+
   class DateConverter
     def self.convert(value)
       Date.strptime( value, '%m/%d/%Y')
